@@ -1,0 +1,27 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "API em node",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murilo-scapim/api-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murilo-scapim/api-node/issues"
+  },
+  "homepage": "https://github.com/murilo-scapim/api-node#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "http-status": "^1.4.0",
+    "nodemon": "^1.19.4",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.0"
+  }
+}
